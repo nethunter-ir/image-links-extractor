@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Links Extractor</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 10px;
+    }
+    textarea {
+      width: 100%;
+      height: 200px;
+    }
+    button {
+      margin-top: 10px;
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    #message {
+      margin-top: 10px;
+      color: green;
+      font-size: 14px;
+      text-align: center;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h3>Extracted Image Links</h3>
+  <textarea id="image-links" readonly></textarea>
+  <button id="copy-button">Copy to Clipboard</button>
+  <div id="message">Links copied to clipboard!</div>
+
+  <script src="/popup/popup.js"></script>
+</body>
+</html>
